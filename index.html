@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alexander Puhl</title>
+    <link rel='stylesheet' href='./styles/index.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <nav>
+        <FontAwesomeIcon id='navbar-toggle' icon="bars" />
+        <ul id="main-nav">
+            <li><a href="#hero-section" id="home-link" class="nav-links active-link">HOME</a></li>
+            <li><a href="#portfolio-section" id="reviews-link" class="nav-links">PROJECTS</a></li>
+            <li><a href="#about-section" id="about-link" class="nav-links">ABOUT</a></li>
+            <li><a href="#contacts-section" id="contacts-link" class="nav-links">CONTACT</a></li>
+        </ul>
+    </nav>
+    <header class='hero-section textCenter sidePadding1 topBottomPadding3'>
+        <section class='section'>
+            <h1>Alex Puhl</h1>
+            <p>Hey there! I’m a full stack developer based in Salt Lake City, UT.</p>
+            <a href='https://github.com/AlexanderPuhl'>
+                <i class="fa fa-github">
+            </a>
+            <a href='https://www.linkedin.com/in/alexander-puhl/'>
+                <i class="fa fa-linkedin-square">
+            </a>
+            <a href='https://twitter.com/AlexPuhl'>
+                <i class="fa fa-twitter">
+            </a>
+            <a href='mailto:alexpuhldeveloper@gmail.com'>
+                <i class="fa fa-envelope-o">
+            </a>
+        </section>
+    </header>
+    <section class='projects-section topBottomPadding3 sidePadding1'>
+        <div class='width800'>
+            <h2>Projects</h2>
+            <div>
+                <h3>Miles Per Gallon Tracker</h3>
+                <p>
+                    This app is for keeping track of the miles per gallon your vehicle is getting. This is a good
+                    indicator for the health of your vehicle and the money you spend on gas. This is for anybody that
+                    is questing the health of their vehicle or is fascinated with tracking data over time.
+                </p>
+                <h4>Technology Used:</h4>
+                <p>React/Redux, Node.js, Express, Mongo/Mongoose, Bcrypt/Passport</p>
+                <a href='https://mpg-tracker-client.herokuapp.com/'>
+                    <img src='./images/mpgTracker.jpg' alt='MPG Tracker' height='400px' />
+                </a>
+                <p>Click <a href='https://github.com/AlexanderPuhl/mpg-tracker-client'>here</a> to view the GitHub
+                    repository</p>
+            </div>
+        </div>
+    </section>
+    <section class='About-Me-Section primaryBackground topBottomPadding6 sidePadding1'>
+        <div class='width800'>
+            <h2 class='topBottomPadding1'>About Me</h2>
+            <p>
+                Hello! My name is Alexander Puhl, but I just go by Alex. I have always been interested in technology
+                with a knack for solving technical problems that come up. I’ve built computers on my quest to more epic
+                gaming. I have turned my attention to Software Development with a focus on Web Development. I’m excited
+                to work with talented, experienced developers in the field. I will soon be graduating college where I
+                have learned much about Software Development.
+            </p>
+        </div>
+    </section>
+    <section class="contacts-section topBottomPadding6 sidePadding1">
+        <div class="width800">
+            <h2 class='topBottomPadding2'>Contact</h2>
+
+            <form id="contact-form" class="js-contact-form width800 .sideMargin1">
+                <fieldset>
+                    <label htmlFor="name"></label>
+                    <input class="required js-contact-name-entry" name="name" placeholder="John Smith" type="text" />
+                </fieldset>
+                <fieldset>
+                    <label htmlFor="email"></label>
+                    <input class="required js-contact-email-entry" name="email" placeholder="username@email.com"
+                        type="text" />
+                </fieldset>
+                <fieldset>
+                    <label htmlFor="message"></label>
+                    <input class="js-contact-message-entry" name="message" placeholder="Optional" type="text" />
+                </fieldset>
+                <button type="submit" class="button">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </section>
+    <section class='section primaryBackground textCenter topBottomPadding2 sidePadding1'>
+        <p class='width800'>Developed by Alexander Puhl © 2018</p>
+        <a href='https://github.com/AlexanderPuhl'>
+            <i class="fa fa-github">
+        </a>
+        <a href='https://www.linkedin.com/in/alexander-puhl/'>
+            <i class="fa fa-linkedin-square">
+        </a>
+        <a href='https://twitter.com/AlexPuhl'>
+            <i class="fa fa-twitter">
+        </a>
+        <a href='mailto:alexpuhldeveloper@gmail.com'>
+            <i class="fa fa-envelope-o">
+        </a>
+    </section>
+</body>
+
+</html>
