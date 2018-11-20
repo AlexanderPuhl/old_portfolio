@@ -3,43 +3,45 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Alexander Puhl</title>
     <link rel='stylesheet' href='./styles/index.css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-</head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='
+    crossorigin='anonymous'></script>
+  </head>
 
 <body>
-    <nav>
-        <FontAwesomeIcon id='navbar-toggle' icon="bars" />
-        <ul id="main-nav">
-            <li><a href="#hero-section" id="home-link" class="nav-links active-link">HOME</a></li>
-            <li><a href="#portfolio-section" id="reviews-link" class="nav-links">PROJECTS</a></li>
-            <li><a href="#about-section" id="about-link" class="nav-links">ABOUT</a></li>
-            <li><a href="#contacts-section" id="contacts-link" class="nav-links">CONTACT</a></li>
-        </ul>
+    <nav class="navbar">
+      <span class="navbar-toggle" id='js-navbar-toggle'><i class='fas fa-bars'></i></span>
+      <ul class="main-nav" id="js-main-nav">
+          <li id="home-link"><a href="#hero-section">HOME</a></li>
+          <li id="projects-link"><a href="#projects-section">PROJECTS</a></li>
+          <li id="about-link"><a href="#about-section">ABOUT</a></li>
+          <li id="contacts-link"><a href="#contacts-section">CONTACT</a></li>
+      </ul>
     </nav>
-    <header class='hero-section textCenter sidePadding1 topBottomPadding3'>
+    <header class='hero-section textCenter sidePadding1 topBottomPadding3' id='hero-section'>
         <section class='section'>
             <h1>Alex Puhl</h1>
             <p>Hey there! I’m a full stack developer based in Salt Lake City, UT.</p>
-            <a href='https://github.com/AlexanderPuhl'>
-                <i class="fa fa-github">
+            <a href='https://github.com/AlexanderPuhl' target="_blank">
+                <i class="fab fa-github"></i>
             </a>
-            <a href='https://www.linkedin.com/in/alexander-puhl/'>
-                <i class="fa fa-linkedin-square">
+            <a href='https://www.linkedin.com/in/alexander-puhl/' target="_blank">
+              <i class="fab fa-linkedin"></i>
             </a>
-            <a href='https://twitter.com/AlexPuhl'>
-                <i class="fa fa-twitter">
+            <a href='https://twitter.com/AlexPuhl' target="_blank">
+                <i class="fab fa-twitter"></i>
             </a>
             <a href='mailto:alexpuhldeveloper@gmail.com'>
-                <i class="fa fa-envelope-o">
+                <i class="fas fa-envelope"></i>
             </a>
         </section>
     </header>
-    <section class='projects-section topBottomPadding3 sidePadding1'>
+    <section class='projects-section topBottomPadding3 sidePadding1' id='projects-section'>
         <div class='width800'>
             <h2>Projects</h2>
             <div>
@@ -59,7 +61,7 @@
             </div>
         </div>
     </section>
-    <section class='About-Me-Section primaryBackground topBottomPadding6 sidePadding1'>
+    <section class='About-Me-Section primaryBackground topBottomPadding6 sidePadding1' id='about-section'>
         <div class='width800'>
             <h2 class='topBottomPadding1'>About Me</h2>
             <p>
@@ -71,7 +73,7 @@
             </p>
         </div>
     </section>
-    <section class="contacts-section topBottomPadding6 sidePadding1">
+    <section class="contacts-section topBottomPadding6 sidePadding1" id='contacts-section'>
         <div class="width800">
             <h2 class='topBottomPadding2'>Contact</h2>
 
@@ -95,21 +97,22 @@
             </form>
         </div>
     </section>
-    <section class='section primaryBackground textCenter topBottomPadding2 sidePadding1'>
+    <footer class='section primaryBackground textCenter topBottomPadding2 sidePadding1'>
         <p class='width800'>Developed by Alexander Puhl © 2018</p>
-        <a href='https://github.com/AlexanderPuhl'>
-            <i class="fa fa-github">
+        <a href='https://github.com/AlexanderPuhl' target="_blank">
+            <i class="fab fa-github"></i>
         </a>
-        <a href='https://www.linkedin.com/in/alexander-puhl/'>
-            <i class="fa fa-linkedin-square">
+        <a href='https://www.linkedin.com/in/alexander-puhl/' target="_blank">
+            <i class="fab fa-linkedin"></i>
         </a>
-        <a href='https://twitter.com/AlexPuhl'>
-            <i class="fa fa-twitter">
+        <a href='https://twitter.com/AlexPuhl' target="_blank">
+            <i class="fab fa-twitter"></i>
         </a>
         <a href='mailto:alexpuhldeveloper@gmail.com'>
-            <i class="fa fa-envelope-o">
+          <i class="fas fa-envelope"></i>
         </a>
-    </section>
+      </footer>
+      <script src='./scripts/navbar.js'></script>
 </body>
 
 </html>
