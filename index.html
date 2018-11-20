@@ -1,118 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="./images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Alexander Puhl</title>
+    <link rel='stylesheet' href='./styles/normalize.css'>
     <link rel='stylesheet' href='./styles/index.css'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='
     crossorigin='anonymous'></script>
   </head>
-
-<body>
+  <body>
     <nav class="navbar">
       <span class="navbar-toggle" id='js-navbar-toggle'><i class='fas fa-bars'></i></span>
       <ul class="main-nav" id="js-main-nav">
-          <li id="home-link"><a href="#hero-section">HOME</a></li>
-          <li id="projects-link"><a href="#projects-section">PROJECTS</a></li>
-          <li id="about-link"><a href="#about-section">ABOUT</a></li>
-          <li id="contacts-link"><a href="#contacts-section">CONTACT</a></li>
+        <li id="home-link"><a href="#hero-section">HOME</a></li>
+        <li id="projects-link"><a href="#projects-section">PROJECTS</a></li>
+        <li id="about-link"><a href="#about-section">ABOUT</a></li>
+        <li id="contacts-link"><a href="#contacts-section">CONTACT</a></li>
       </ul>
     </nav>
-    <header class='hero-section textCenter sidePadding1 topBottomPadding3' id='hero-section'>
-        <section class='section'>
-            <h1>Alex Puhl</h1>
-            <p>Hey there! I’m a full stack developer based in Salt Lake City, UT.</p>
-            <a href='https://github.com/AlexanderPuhl' target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href='https://www.linkedin.com/in/alexander-puhl/' target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a href='https://twitter.com/AlexPuhl' target="_blank">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href='mailto:alexpuhldeveloper@gmail.com'>
-                <i class="fas fa-envelope"></i>
-            </a>
-        </section>
-    </header>
-    <section class='projects-section topBottomPadding3 sidePadding1' id='projects-section'>
-        <div class='width800'>
-            <h2>Projects</h2>
-            <div>
-                <h3>Miles Per Gallon Tracker</h3>
-                <p>
-                    This app is for keeping track of the miles per gallon your vehicle is getting. This is a good
-                    indicator for the health of your vehicle and the money you spend on gas. This is for anybody that
-                    is questing the health of their vehicle or is fascinated with tracking data over time.
-                </p>
-                <h4>Technology Used:</h4>
-                <p>React/Redux, Node.js, Express, Mongo/Mongoose, Bcrypt/Passport</p>
-                <a href='https://mpg-tracker-client.herokuapp.com/'>
-                    <img src='./images/mpgTracker.jpg' alt='MPG Tracker' height='400px' />
-                </a>
-                <p>Click <a href='https://github.com/AlexanderPuhl/mpg-tracker-client'>here</a> to view the GitHub
-                    repository</p>
-            </div>
-        </div>
-    </section>
-    <section class='About-Me-Section primaryBackground topBottomPadding6 sidePadding1' id='about-section'>
-        <div class='width800'>
-            <h2 class='topBottomPadding1'>About Me</h2>
-            <p>
-                Hello! My name is Alexander Puhl, but I just go by Alex. I have always been interested in technology
-                with a knack for solving technical problems that come up. I’ve built computers on my quest to more epic
-                gaming. I have turned my attention to Software Development with a focus on Web Development. I’m excited
-                to work with talented, experienced developers in the field. I will soon be graduating college where I
-                have learned much about Software Development.
-            </p>
-        </div>
-    </section>
-    <section class="contacts-section topBottomPadding6 sidePadding1" id='contacts-section'>
-        <div class="width800">
-            <h2 class='topBottomPadding2'>Contact</h2>
-
-            <form class="js-contact-form width800 sideMargin1" name='contact' method='POST'>
-                <fieldset>
-                    <label htmlFor="name"></label>
-                    <input class="required js-contact-name-entry" name="name" placeholder="John Smith" type="text" />
-                </fieldset>
-                <fieldset>
-                    <label htmlFor="email"></label>
-                    <input class="required js-contact-email-entry" name="email" placeholder="username@email.com"
-                        type="text" />
-                </fieldset>
-                <fieldset>
-                    <label htmlFor="message"></label>
-                    <input class="js-contact-message-entry" name="message" placeholder="Optional" type="text" />
-                </fieldset>
-                <button type="submit" class="button">
-                    Submit
-                </button>
-            </form>
-        </div>
-    </section>
-    <footer class='section primaryBackground textCenter topBottomPadding2 sidePadding1'>
-        <p class='width800'>Developed by Alexander Puhl © 2018</p>
+    <header class='hero-section textCenter' id='hero-section'>
+      <section>
+        <h1>Alex Puhl</h1>
+        <p>Hey there! I’m a full stack developer based in Salt Lake City, UT.</p>
         <a href='https://github.com/AlexanderPuhl' target="_blank">
-            <i class="fab fa-github"></i>
+          <i class="fab fa-github"></i>
         </a>
         <a href='https://www.linkedin.com/in/alexander-puhl/' target="_blank">
-            <i class="fab fa-linkedin"></i>
+          <i class="fab fa-linkedin"></i>
         </a>
         <a href='https://twitter.com/AlexPuhl' target="_blank">
-            <i class="fab fa-twitter"></i>
+          <i class="fab fa-twitter"></i>
         </a>
         <a href='mailto:alexpuhldeveloper@gmail.com'>
           <i class="fas fa-envelope"></i>
         </a>
-      </footer>
-      <script src='./scripts/navbar.js'></script>
-</body>
-
+      </section>
+    </header>
+    <section class='projects-section' id='projects-section'>
+      <div class='container'>
+        <h2>About Me</h2>
+        <div class='profile'>
+          <img class="profile-picture" src='/images/pic.JPG'>
+          <p class="biography">
+            I have always been interested in technology with a knack for solving technical problems that come up. 
+            I’ve built computers and setup LANs on my quest for more epic gaming. 
+            I have turned my attention to Software Development with a focus on Web Development.
+            I’m excited to work with talented, experienced developers in the field.
+            I will soon be graduating college where I have learned much about Software Development.
+          </p>
+        </div>
+        <div class='resume'>
+          <div class='resume-category'>
+            
+          </div>
+          <div class='resume-category'>
+            
+          </div>
+          <div class='resume-category'>
+            
+          </div>
+          <div class='resume-category'>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class='About-Me-Section secondaryBackground' id='about-section'>
+      <div class='container'>
+        <h2>Projects</h2>
+        <div class="gallery">
+          <ul class="projects-box">
+            <li class="project">
+              <h3>Miles Per Gallon Tracker</h3>
+              <p>
+                This app is for keeping track of the miles per gallon your vehicle is getting. This is a good
+                indicator for the health of your vehicle and the money you spend on gas. This is for anybody that
+                is questing the health of their vehicle or is fascinated with tracking data over time.
+              </p>
+              <h4>Technology Used:</h4>
+              <p>React/Redux, Node.js, Express, Mongo/Mongoose, Bcrypt/Passport</p>
+              <a href='https://mpg-tracker-client.herokuapp.com/'>
+                <img src='./images/mpg-tracker.jpg' alt='MPG Tracker' height='400px' />
+              </a>
+              <p>Click <a href='https://github.com/AlexanderPuhl/mpg-tracker-client'>here</a> to view the GitHub repository</p>
+            </li>
+            <li class="project">
+              <h3>Spanish-App</h3>
+              <p>
+                  Spanish app is a responsive full-stack application that allows users to learn Spanish through a technique called "Spaced Repetition".
+                  As the user answers questions correctly, the algorithm will wait a little longer before presenting that particular question again.
+                  The data structure that stores the words is a linked list.
+              </p>
+              <h4>Technology Used:</h4>
+              <p>React/Redux, Node.js, Express, Mongo/Mongoose, Bcrypt/Passport, Responsivevoice.org</p>
+              <a href='https://spanish-app-client.herokuapp.com/'>
+                <img src='./images/spanish-app.jpg' alt='MPG Tracker' height='400px' />
+              </a>
+              <p>Click <a href='https://github.com/thinkful-ei23/Spanish-Client-Alex-David'>here</a> to view the GitHub repository</p>
+            </li>
+            <li class="project">
+              <h3>Cozy Spaces</h3>
+              <p>
+                Cozy Spaces is focused on bringing a warm glow to life through curating truly cozy spaces.
+                Need a cozy space to warm up your toes and light up your soul?
+              </p>
+              <h4>Technology Used:</h4>
+              <p>React/Redux, Node.js, Express, Mongo/Mongoose, Bcrypt/Passport, Google Maps API</p>
+              <a href='https://cozy-spaces-client.herokuapp.com/'>
+                <img src='./images/cozy-spaces.JPG' alt='MPG Tracker' height='400px' />
+              </a>
+              <p>Click <a href='https://github.com/thinkful-ei23/cozy-spaces-client'>here</a> to view the GitHub repository</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer class='primaryBackground textCenter'>
+      <section class="container">
+        <h2>Contact me at: </h2>
+        <div class="contacts">
+          <ul class="contacts-box">
+            <li class="contact">       
+              <a href='https://github.com/AlexanderPuhl' target="_blank">
+                <i class="fab fa-github"></i>
+                github.com/AlexanderPuhl
+              </a>
+            </li>
+            <li class="contact">
+              <a href='https://www.linkedin.com/in/alexander-puhl/' target="_blank">
+                <i class="fab fa-linkedin"></i>
+                linkedin.com/alexander-puhl/
+              </a>
+            </li>
+            <li class="contact">
+              <a href='https://twitter.com/AlexPuhl' target="_blank">
+                <i class="fab fa-twitter"></i>
+                twitter.com/AlexPuhl
+              </a>
+            </li>
+            <li class="contact">
+              <a href='mailto:alexpuhldeveloper@gmail.com'>
+                <i class="fas fa-envelope"></i>
+                alexpuhldeveloper@gmail.com
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p class='width800'>Developed by Alexander Puhl © 2018</p>
+      </section>
+    </footer>
+    <script src='./scripts/navbar.js'></script>
+  </body>
 </html>
