@@ -173,7 +173,7 @@ header {
   flex-direction: column;
   justify-content: center;
   min-height: calc(100vh);
-  padding: 20px 10px;
+  padding: 20px;
 }
 
 header p {
@@ -267,9 +267,7 @@ i:hover {
 }
 
 @media screen and (min-width: 800px) {
-  h1 {
-    font-size: 75px;
-  }
+  /* NAVIGATION */
   nav {
     display: flex;
     justify-content: flex-end;
@@ -277,6 +275,12 @@ i:hover {
   nav ul {
     align-items: center;
   }
+
+  /* HEADER */
+  h1 {
+    font-size: 75px;
+  }
+
   /* CLASSES */
   .container {
     display: flex;
