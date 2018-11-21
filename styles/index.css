@@ -183,6 +183,7 @@ header p {
 /* PROFILE */
 .profile-picture {
   border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 0 auto;
   max-width: 200px;
   max-height: 200px;
@@ -205,12 +206,32 @@ header p {
 /* PROJECTS */
 .project-card {
   background-color: var(--primaryBackground);
-  margin: 0 auto 10px auto;
+  display: block;
+  margin: 10px auto;
   max-width: 400px;
-  width: 100%
+}
+a.img:hover {
+  opacity: 1;
+  animation: flash 2s;
+}
+@keyframes flash {
+  0% {
+      opacity: 0.5;
+  }
+  100% {
+      opacity: 1;
+  }
 }
 .project-card-info {
+  display: flex;
+  flex-direction: column;
   padding: 10px;
+}
+.project-card-info:hover {
+  background: rgba(105,105,105, 0.5);
+}
+.project-card-info h3 {
+  margin: 0;
 }
 
 /* FOOTER */
@@ -223,6 +244,10 @@ header p {
   width: 100%;
   text-align: center;
 }
+ul.contacts-box li {
+  text-align: center;
+}
+
 
 /* CONTACT ICONS */
 i {
@@ -234,6 +259,16 @@ i:hover {
 }
 
 @media screen and (min-width: 800px) {
+  h1 {
+    font-size: 75px;
+  }
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav ul {
+    align-items: center;
+  }
   /* CLASSES */
   .container {
     display: flex;
@@ -241,7 +276,7 @@ i:hover {
     margin: 0 auto;
     padding: 50px 0;
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
   }
 
   /* \/\/\/ NAVIGATION BAR* \/\/\/ */
@@ -262,6 +297,12 @@ i:hover {
     display: none;
   }
 
+
+  /* PROJECTS */
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   /* FOOTER */
 .contacts-box li {
