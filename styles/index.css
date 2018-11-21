@@ -108,6 +108,9 @@ ul {
   display: flex;
   flex-direction: row;
 }
+.noMargin {
+  margin: 0;
+}
 .textCenter {
   text-align: center;
 }
