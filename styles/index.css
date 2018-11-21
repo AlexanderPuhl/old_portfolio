@@ -183,10 +183,15 @@ header p {
 /* PROFILE */
 .profile-picture {
   border-radius: 50%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.2);
   margin: 0 auto;
   max-width: 200px;
   max-height: 200px;
+  transform: scale(1);
+  transition: transform ease-in-out 250ms, box-shadow ease-in-out 250ms;
+}
+.profile-picture:hover {
+  transform: scale(1.05);
 }
 .biography {
   margin: 18px auto;
@@ -253,9 +258,12 @@ ul.contacts-box li {
 i {
   font-size: 40px;
   padding: 16px;
+  transform: scale(1);
+  transition: transform ease-in-out 250ms, box-shadow ease-in-out 250ms;
 }
 i:hover {
   color: var(--tealText);
+  transform: scale(1.25);
 }
 
 @media screen and (min-width: 800px) {
