@@ -244,15 +244,6 @@ a.img:hover {
   flex-wrap: wrap;
   justify-content: center;
 }
-.contacts-box li {
-  list-style-type: none;
-  width: 100%;
-  text-align: center;
-}
-ul.contacts-box li {
-  text-align: center;
-}
-
 
 /* CONTACT ICONS */
 i {
@@ -264,6 +255,10 @@ i {
 i:hover {
   color: var(--tealText);
   transform: scale(1.25);
+}
+
+footer {
+  padding: 10px 0;
 }
 
 @media screen and (min-width: 800px) {
@@ -309,20 +304,10 @@ i:hover {
     display: none;
   }
 
-
   /* PROJECTS */
   .projects {
     display: flex;
     flex-wrap: wrap;
   }
-
-  /* FOOTER */
-.contacts-box li {
-  list-style-type: none;
-  width: 50%;
-  text-align: left;
-  padding: 20px 10px;
-}
-
 
 }
