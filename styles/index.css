@@ -139,6 +139,7 @@ ul {
   color: var(--tealText);
 }
 .navbar  p {
+  display: inline-block;
   font-size: 20px;
   padding: 16px;
   margin: 0;
@@ -160,7 +161,7 @@ ul {
   display: none;
   flex-direction: column;
   list-style-type: none;
-  margin: -1px 0 0 0;
+  margin: -2px 0 0 0;
 }
 .main-nav li {
   font-weight: 500;
