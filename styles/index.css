@@ -130,24 +130,28 @@ ul {
   width: 100%;
   z-index: 1;
 }
-<<<<<<< HEAD
-.navbar p {
+
+.navbar a {
+  align-self: center;
+
+}
+.navbar a:hover {
+  color: var(--tealText);
+}
+.navbar  p {
   font-size: 20px;
   padding: 0 16px;
+  margin: 0;
 }
-=======
->>>>>>> a7789d87a7f0248c2590529b0512b828db023514
+
+
 .navbar-toggle i {
   position: absolute;
   top: 5px;
   right: 10px;
   cursor: pointer;
   color: var(--dark);
-<<<<<<< HEAD
-  font-size: 30px;
-=======
   font-size: 25px;
->>>>>>> a7789d87a7f0248c2590529b0512b828db023514
 }
 .main-nav {
   background-color: var(--primaryBackground);
@@ -167,10 +171,6 @@ ul {
   color: rgba(var(--darkText), 0.7);
 }
 .main-nav li .active-link {
-  color: var(--tealText);
-}
-
-.main-nav li a:hover {
   color: var(--tealText);
 }
 
