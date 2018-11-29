@@ -33,7 +33,7 @@ body {
   line-height: 1.5;
 }
 a {
-  color: var(--lightText);
+  /* color: var(--lightText); */
   text-decoration: none;
 }
 body {
@@ -208,8 +208,30 @@ header p {
 }
 .biography {
   margin: 18px auto;
-  text-align: center;
+  /* text-align: center; */
   width: 75%;
+}
+.tech-stack-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tech-stack-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tech-stack-icons li {
+
+  margin: 0 20px;
+  text-align: center;
+}
+.tech-stack-icons li a:hover {
+  color: var(--tealText);
+}
+.tech-stack-icons li a {
+  display: flex;
+  flex-direction: column;
 }
 .resume {
   flex-wrap: wrap;

@@ -1,141 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="./images/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Alexander Puhl</title>
-    <link rel='stylesheet' href='./styles/normalize.css'>
-    <link rel='stylesheet' href='./styles/index.css'>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='
-    crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav class="navbar">
-      <a href="https://www.alexpuhl.com"><p>Alexander Puhl</p></a>
-      <span class="navbar-toggle" id='js-navbar-toggle'><i class='fas fa-bars'></i></span>
-      <ul class="main-nav" id="js-main-nav">
-        <li id="home-link"><a href="#hero-section">HOME</a></li>
-        <li id="about-link"><a href="#about-section">ABOUT</a></li>
-        <li id="projects-link"><a href="#projects-section">PROJECTS</a></li>
-        <li id="contacts-link"><a href="#contacts-section">CONTACT</a></li>
+      <a class="lightText" href="https://www.alexpuhl.com"><p>Alexander Puhl</p></a>
+      <span class="navbar-toggle" id="js-navbar-toggle"
+        ><i class="fas fa-bars"></i
+      ></span>
+      <ul class=" main-nav" id="js-main-nav">
+        <li  id="home-link"><a  class="lightText" href="#hero-section">HOME</a></li>
+        <li id="about-link"><a class="lightText" href="#about-section">ABOUT</a></li>
+        <li id="projects-link"><a class="lightText" href="#projects-section">PROJECTS</a></li>
+        <li id="contacts-link"><a class="lightText" href="#contacts-section">CONTACT</a></li>
       </ul>
     </nav>
-    <header class='hero-section textCenter' id='hero-section'>
+    <header class="hero-section textCenter" id="hero-section">
       <h1>Alex Puhl</h1>
       <p>Hey there! I’m a full stack developer based in Salt Lake City, UT.</p>
       <ul class="flexRow noMargin">
-        <li>       
-          <a href='https://github.com/AlexanderPuhl' target="_blank">
+        <li>
+          <a class="lightText" href="https://github.com/AlexanderPuhl" target="_blank">
             <i class="fab fa-github"></i>
           </a>
         </li>
         <li>
-          <a href='https://www.linkedin.com/in/alexander-puhl/' target="_blank">
+          <a class="lightText" href="https://www.linkedin.com/in/alexander-puhl/" target="_blank">
             <i class="fab fa-linkedin"></i>
           </a>
         </li>
         <li>
-          <a href='https://twitter.com/AlexPuhl' target="_blank">
+          <a class="lightText" href="https://twitter.com/AlexPuhl" target="_blank">
             <i class="fab fa-twitter"></i>
           </a>
         </li>
         <li>
-          <a href='mailto:alexpuhldeveloper@gmail.com'>
+          <a class="lightText" href="mailto:alexpuhldeveloper@gmail.com">
             <i class="fas fa-envelope"></i>
           </a>
         </li>
       </ul>
     </header>
-    <section class='darkText' id='about-section'>
-      <div class='container'>
+    <section class="darkText" id="about-section">
+      <div class="container">
         <h2>About Me</h2>
-        <div class='flexColumn'>
-          <img class="profile-picture" src='./images/pic.JPG'>
+        <div class="flexColumn">
+          <img class="profile-picture" src="./images/pic.JPG" />
           <p class="biography">
-            I have always been interested in technology with a knack for solving technical problems that come up.
-            I’ve built computers and setup LANs on my quest for more epic gaming. 
-            In the last few years I have turned my attention to Software Development with a focus on Web Development.
-            I have also developed a facination with Rasberry Pi's and Arduino boards.
-            I am very excited to work with talented, experienced developers in the field.
+            I have always been interested in technology with a knack for solving
+            technical problems that come up. I’ve built computers and setup LANs
+            on my quest for more epic gaming. I traditionally come from a tech
+            support background and only ever used code for basic things like
+            automatically backing up my minecraft server.
+          </p>
+          <p class="biography">
+            In the last few years I have turned my attention to Software
+            Development with a focus on Web Development. I've become a really
+            big fan of creating websites that behave as quick as an app,
+            espeically on mobile devices. I love not having to wait for the
+            screen to load when I'm interacting with the app.
+          </p>
+          <p class="biography">
+            I have also developed a facination with Rasberry Pi's and Arduino
+            boards. It's really cool being able to see your code interact with
+            the world a little bit more. I am very excited to work with
+            talented, experienced developers in the field and can't wait to see
+            what the future of development has in store for me.
           </p>
         </div>
-        <div class='flexRow resume'>
-          <div class='flexRow resume-category'>
-            
-          </div>
-          <div class='flexRow resume-category'>
-            
-          </div>
-          <div class='flexRow resume-category'>
-            
-          </div>
-          <div class='flexRow resume-category'>
-            
-          </div>
+        <div class="tech-stack-section">
+          <h2>Tech Stack</h2>
+          <ul class="tech-stack-icons">
+            <li class="flexColumn"><a class="darkText" href="https://www.w3schools.com/html/html_intro.asp" target="_blank"><i class="fab fa-html5"></i>HTML5</a></li>
+            <li class="flexColumn"><a class="darkText" href='https://www.w3schools.com/css/css_intro.asp' target="_blank"><i class="fab fa-css3-alt"></i>CSS3</a></li>
+            <li class="flexColumn"><a class="darkText" href='https://www.w3schools.com/js/js_intro.asp' target="_blank"><i class="fab fa-js"></i>Javascript</a></li>
+            <li class="flexColumn"><a class="darkText" href='https://www.w3schools.com/nodejs/nodejs_intro.asp' target="_blank"><i class="fab fa-node"></i>Node JS</a></li>
+            <li class="flexColumn"><a class="darkText" href='https://reactjs.org/' target="_blank"><i class="fab fa-react"></i>React</a></li>
+            <li class="flexColumn"><a class="darkText" href='https://en.wikipedia.org/wiki/Git' target="_blank"><i class="fas fa-code-branch"></i>GIT</a></li>
+            <li class="flexColumn"><a class="darkText" href='https://en.wikipedia.org/wiki/GitHub' target="_blank"><i class="fab fa-github"></i>GitHub</a></li>
+          </ul>
+        </div>
+        <div class="flexRow resume">
+          <div class="flexRow resume-category"></div>
+          <div class="flexRow resume-category"></div>
+          <div class="flexRow resume-category"></div>
+          <div class="flexRow resume-category"></div>
         </div>
       </div>
     </section>
-    <section class='lightText secondaryBackground' id='projects-section'>
-      <div class='container'>
+    <section class="lightText secondaryBackground" id="projects-section">
+      <div class="container">
         <h2>Projects</h2>
         <ul class="projects">
           <li class="project-card">
-            <a class="img" href='https://mpg-tracker-client.herokuapp.com/' target="_blank">
-              <img src='./images/mpg-tracker2.jpg' alt='MPG Tracker'/>
+            <a
+              class="img"
+              href="https://mpg-tracker-client.herokuapp.com/"
+              target="_blank"
+            >
+              <img src="./images/mpg-tracker2.jpg" alt="MPG Tracker" />
             </a>
-            <div class='project-card-info textCenter'>
+            <div class="project-card-info textCenter">
               <h3>Miles Per Gallon Tracker</h3>
               <p>
-                This app will help you keep track of the miles per gallon your vehicle is getting.
-                This is a great way to keep an eye on the health of your vehicle.
-                It's also just fun to collect this sort of data and look back over it!
+                This app will help you keep track of the miles per gallon your
+                vehicle is getting. This is a great way to keep an eye on the
+                health of your vehicle. It's also just fun to collect this sort
+                of data and look back over it!
               </p>
-              <p>React/Redux, Node.js, Express, Mongo/Mongoose, Bcrypt/Passport</p>
-              <a href='https://github.com/AlexanderPuhl/mpg-tracker-client' target="_blank">
+              <p>
+                React/Redux, Node.js, Express, Mongo/Mongoose, Bcrypt/Passport
+              </p>
+              <a class="lightText"
+                href="https://github.com/AlexanderPuhl/mpg-tracker-client"
+                target="_blank"
+              >
                 <i class="fab fa-github"></i>
               </a>
-              <a class="githubLink" href='https://github.com/AlexanderPuhl/mpg-tracker-client' target="_blank">
+              <a
+                class="githubLink lightText"
+                href="https://github.com/AlexanderPuhl/mpg-tracker-client"
+                target="_blank"
+              >
                 https://github.com/AlexanderPuhl/mpg-tracker-client
               </a>
             </div>
           </li>
           <li class="project-card">
-            <a class="img" href='https://spanish-app-client.herokuapp.com/' target="_blank">
-              <img src='./images/spanish-app.jpg' alt='MPG Tracker'/>
+            <a
+              class="img"
+              href="https://spanish-app-client.herokuapp.com/"
+              target="_blank"
+            >
+              <img src="./images/spanish-app.jpg" alt="MPG Tracker" />
             </a>
-            <div class='project-card-info textCenter'>
+            <div class="project-card-info textCenter">
               <h3>Spanish-App</h3>
               <p>
-                Spanish app allows users to learn Spanish through a technique called "Spaced Repetition".
-                With the spaced repetition technique, there will be increasing intervals of time before reviewing a word you have successfully learned.
+                Spanish app allows users to learn Spanish through a technique
+                called "Spaced Repetition". With the spaced repetition
+                technique, there will be increasing intervals of time before
+                reviewing a word you have successfully learned.
               </p>
-              <p>React/Redux, Node.js, Express, Mongo/Mongoose, Bcrypt/Passport, Responsivevoice.org</p>
-              <a href='https://github.com/thinkful-ei23/Spanish-Client-Alex-David' target="_blank">
+              <p>
+                React/Redux, Node.js, Express, Mongo/Mongoose, Bcrypt/Passport,
+                Responsivevoice.org
+              </p>
+              <a class="lightText"
+                href="https://github.com/thinkful-ei23/Spanish-Client-Alex-David"
+                target="_blank"
+              >
                 <i class="fab fa-github"></i>
               </a>
-              <a class="githubLink" href='https://github.com/thinkful-ei23/Spanish-Client-Alex-David' target="_blank">
+              <a
+                class="githubLink  lightText"
+                href="https://github.com/thinkful-ei23/Spanish-Client-Alex-David"
+                target="_blank"
+              >
                 https://github.com/thinkful-ei23/Spanish-Client-Alex-David
               </a>
             </div>
           </li>
           <li class="project-card">
-            <a class="img" href='https://cozy-spaces-client.herokuapp.com/' target="_blank">
-              <img c src='./images/cozy-spaces.JPG' alt='MPG Tracker'/>
+            <a
+              class="img"
+              href="https://cozy-spaces-client.herokuapp.com/"
+              target="_blank"
+            >
+              <img src="./images/cozy-spaces.JPG" alt="MPG Tracker" />
             </a>
-            <div class='project-card-info textCenter'>
+            <div class="project-card-info textCenter">
               <h3>Cozy Spaces</h3>
               <p>
-                Cozy Spaces is focused on helping users find the coziest spaces to hang out in their area.
-                Need a cozy space to warm up your toes and light up your soul? Find one here!
+                Cozy Spaces is focused on helping users find the coziest spaces
+                to hang out in their area. Need a cozy space to warm up your
+                toes and light up your soul? Find one here!
               </p>
-              <p>React/Redux, Node.js, Express, Mongo/Mongoose, Bcrypt/Passport, Google Maps API</p>
-              <a href='https://github.com/thinkful-ei23/cozy-spaces-client' target="_blank">
+              <p>
+                React/Redux, Node.js, Express, Mongo/Mongoose, Bcrypt/Passport,
+                Google Maps API
+              </p>
+              <a class="lightText"
+                href="https://github.com/thinkful-ei23/cozy-spaces-client"
+                target="_blank"
+              >
                 <i class="fab fa-github"></i>
               </a>
-              <a class="githubLink" href='https://github.com/thinkful-ei23/cozy-spaces-client' target="_blank">
+              <a
+                class="githubLink lightText"
+                href="https://github.com/thinkful-ei23/cozy-spaces-client"
+                target="_blank"
+              >
                 https://github.com/thinkful-ei23/cozy-spaces-client
               </a>
             </div>
@@ -143,35 +216,38 @@
         </ul>
       </div>
     </section>
-    <footer class='primaryBackground textCenter' id='contacts-section'>
+    <footer class="primaryBackground textCenter" id="contacts-section">
       <section>
         <div class="contacts">
           <ul class="contacts-box flexRow noMargin">
-            <li class="contact textCenter">       
-              <a href='https://github.com/AlexanderPuhl' target="_blank">
+            <li class="contact textCenter">
+              <a class="lightText" href="https://github.com/AlexanderPuhl" target="_blank">
                 <i class="fab fa-github"></i>
               </a>
             </li>
             <li class="contact textCenter">
-              <a href='https://www.linkedin.com/in/alexander-puhl/' target="_blank">
+              <a class="lightText"
+                href="https://www.linkedin.com/in/alexander-puhl/"
+                target="_blank"
+              >
                 <i class="fab fa-linkedin"></i>
               </a>
             </li>
             <li class="contact textCenter">
-              <a href='https://twitter.com/AlexPuhl' target="_blank">
+              <a class="lightText" href="https://twitter.com/AlexPuhl" target="_blank">
                 <i class="fab fa-twitter"></i>
               </a>
             </li>
             <li class="contact textCenter">
-              <a href='mailto:alexpuhldeveloper@gmail.com'>
+              <a class="lightText" href="mailto:alexpuhldeveloper@gmail.com">
                 <i class="fas fa-envelope"></i>
               </a>
             </li>
           </ul>
         </div>
-        <p class='width800'>Developed by Alexander Puhl © 2018</p>
+        <p class="width800">Developed by Alexander Puhl © 2018</p>
       </section>
     </footer>
-    <script src='./scripts/navbar.js'></script>
+    <script src="./scripts/navbar.js"></script>
   </body>
 </html>
