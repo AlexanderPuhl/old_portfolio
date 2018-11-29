@@ -147,13 +147,15 @@ ul {
 
 
 .navbar-toggle i {
+  background-color: var(--primaryBackground);
+  border-radius: 50%;
   color: var(--dark);
   cursor: pointer;
   font-size: 25px;
-  padding: 0;
-  position: absolute;
+  padding: 10px;
+  position: fixed;
   right: 15px;
-  top: 15px;
+  bottom: 45px;
 }
 
 .main-nav {
@@ -161,11 +163,16 @@ ul {
   display: none;
   flex-direction: column;
   list-style-type: none;
-  margin: -2px 0 0 0;
+  padding: 20px;
+  margin: 0;
+  position: fixed;
+  left: 45px;
+  right: 45px;
+  bottom: 80px;
 }
 .main-nav li {
   font-weight: 500;
-  padding: 0 0 16px 0;
+  padding: 8px 0;
   text-align: center;
 }
 .nav-links {
@@ -332,9 +339,13 @@ footer {
     height: 60px;
   }
   .main-nav {
+    bottom: 0;
+    left: auto;
+    right: 16px;
     display: flex !important;
     flex-direction: row;
     justify-content: flex-end;
+    position: absolute;
     padding: 0;
   }
   .main-nav li {
