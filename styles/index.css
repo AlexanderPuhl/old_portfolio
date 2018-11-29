@@ -130,17 +130,24 @@ ul {
   width: 100%;
   z-index: 1;
 }
+<<<<<<< HEAD
 .navbar p {
   font-size: 20px;
   padding: 0 16px;
 }
+=======
+>>>>>>> a7789d87a7f0248c2590529b0512b828db023514
 .navbar-toggle i {
   position: absolute;
   top: 5px;
   right: 10px;
   cursor: pointer;
   color: var(--dark);
+<<<<<<< HEAD
   font-size: 30px;
+=======
+  font-size: 25px;
+>>>>>>> a7789d87a7f0248c2590529b0512b828db023514
 }
 .main-nav {
   background-color: var(--primaryBackground);
@@ -215,7 +222,8 @@ header p {
 /* PROJECTS */
 .project-card {
   background-color: var(--primaryBackground);
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin: 10px auto;
   max-width: 400px;
 }
@@ -233,6 +241,7 @@ a.img:hover {
 }
 .project-card-info {
   display: flex;
+  flex: 1;
   flex-direction: column;
   padding: 10px;
 }
