@@ -146,24 +146,25 @@ ul {
 
 
 .navbar-toggle i {
-  position: absolute;
-  top: 0;
-  right: 0;
-  cursor: pointer;
   color: var(--dark);
+  cursor: pointer;
   font-size: 25px;
+  padding: 0;
+  position: absolute;
+  right: 15px;
+  top: 15px;
 }
+
 .main-nav {
   background-color: var(--primaryBackground);
-  border-radius: 5px;
   display: none;
   flex-direction: column;
   list-style-type: none;
-  margin: 0;
+  margin: -1px 0 0 0;
 }
 .main-nav li {
   font-weight: 500;
-  padding: 16px 0;
+  padding: 0 0 16px 0;
   text-align: center;
 }
 .nav-links {
