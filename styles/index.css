@@ -130,13 +130,13 @@ ul {
   width: 100%;
   z-index: 1;
 }
-.navbar-toggle {
+.navbar-toggle i {
   position: absolute;
   top: 5px;
   right: 10px;
   cursor: pointer;
   color: var(--dark);
-  font-size: 32px;
+  font-size: 25px;
 }
 .main-nav {
   background-color: var(--primaryBackground);
