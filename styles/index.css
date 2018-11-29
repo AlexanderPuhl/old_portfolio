@@ -130,13 +130,17 @@ ul {
   width: 100%;
   z-index: 1;
 }
-.navbar-toggle {
+.navbar p {
+  font-size: 20px;
+  padding: 0 16px;
+}
+.navbar-toggle i {
   position: absolute;
   top: 5px;
   right: 10px;
   cursor: pointer;
   color: var(--dark);
-  font-size: 32px;
+  font-size: 30px;
 }
 .main-nav {
   background-color: var(--primaryBackground);
@@ -238,6 +242,9 @@ a.img:hover {
 .project-card-info h3 {
   margin: 0;
 }
+.project-card-info .githubLink:hover {
+  color: var(--tealText);
+}
 
 /* FOOTER */
 .contacts-box {
@@ -265,7 +272,7 @@ footer {
   /* NAVIGATION */
   nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
   }
   nav ul {
     align-items: center;
@@ -287,6 +294,10 @@ footer {
   }
 
   /* \/\/\/ NAVIGATION BAR* \/\/\/ */
+  .navbar {
+    font-size: 16px;
+    height: 60px;
+  }
   .main-nav {
     display: flex !important;
     flex-direction: row;
