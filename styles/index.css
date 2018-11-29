@@ -124,7 +124,7 @@ ul {
 .navbar {
   background-color: var(--primaryBackground);
   font-size: 20px;
-  height: 80px;
+  height: 60px;
   position: fixed;
   margin-top: 0;
   width: 100%;
@@ -140,15 +140,15 @@ ul {
 }
 .navbar  p {
   font-size: 20px;
-  padding: 0 16px;
+  padding: 16px;
   margin: 0;
 }
 
 
 .navbar-toggle i {
   position: absolute;
-  top: 5px;
-  right: 10px;
+  top: 0;
+  right: 0;
   cursor: pointer;
   color: var(--dark);
   font-size: 25px;
