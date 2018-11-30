@@ -281,7 +281,7 @@ a.img:hover {
 .project-card-info h3 {
   margin: 0;
 }
-.project-card-info .githubLink:hover {
+.project-card-info .projectLink:hover {
   color: var(--tealText);
 }
 
