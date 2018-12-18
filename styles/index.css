@@ -133,18 +133,16 @@ ul {
 
 .navbar a {
   align-self: center;
-
 }
 .navbar a:hover {
   color: var(--tealText);
 }
-.navbar  p {
+.navbar p {
   display: inline-block;
   font-size: 20px;
   padding: 16px;
   margin: 0;
 }
-
 
 .navbar-toggle i {
   background-color: var(--primaryBackground);
@@ -248,7 +246,6 @@ header p {
   padding-top: 40px;
 }
 
-
 /* PROJECTS */
 .project-card {
   background-color: var(--primaryBackground);
@@ -263,10 +260,10 @@ a.img:hover {
 }
 @keyframes flash {
   0% {
-      opacity: 0.5;
+    opacity: 0.5;
   }
   100% {
-      opacity: 1;
+    opacity: 1;
   }
 }
 .project-card-info {
@@ -276,7 +273,7 @@ a.img:hover {
   padding: 10px;
 }
 .project-card-info:hover {
-  background: rgba(105,105,105, 0.5);
+  background: rgba(105, 105, 105, 0.5);
 }
 .project-card-info h3 {
   margin: 0;
@@ -363,5 +360,4 @@ footer {
     display: flex;
     flex-wrap: wrap;
   }
-
 }
