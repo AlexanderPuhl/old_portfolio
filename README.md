@@ -1,6 +1,6 @@
-<img alt="Landing Page" src="https://github.com/AlexanderPuhl/portfolio/blob/master/images/portfolioCircuitDesign.JPG">
-
 <h1 align="center">My Portfolio</h1>
+
+<img alt="Landing Page" src="https://github.com/AlexanderPuhl/portfolio/blob/master/images/portfolioCircuitDesign.JPG">
 
 [Demo Miles Per Gallon Tracker Here](https://www.alexpuhl.com/)
 
