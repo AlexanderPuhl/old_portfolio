@@ -2,7 +2,7 @@
 
 <img alt="Landing Page" src="https://github.com/AlexanderPuhl/portfolio/blob/master/images/portfolioCircuitDesign.JPG">
 <p align="center">
-  <a href="https://www.alexpuhl.com/">Demo Miles Per Gallon Tracker Here</a>
+  <a href="https://www.alexpuhl.com/">Visit my website!</a>
 </p>
 ## Summary
 
