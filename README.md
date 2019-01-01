@@ -1,4 +1,4 @@
-<img alt="Landing Page" src="https://github.com/AlexanderPuhl/mpg-tracker-client/blob/master/assets/landing-page.jpg" width="350">
+<img alt="Landing Page" src="https://github.com/AlexanderPuhl/portfolio/blob/master/images/portfolioCircuitDesign.JPG">
 
 <h1 align="center">My Portfolio</h1>
 
