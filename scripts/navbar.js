@@ -1,14 +1,14 @@
 'use strict';
-$(document).ready(function () {
+$(document).ready(function() {
   let mainNav = $('#js-main-nav');
   let navbarToggle = $('#js-navbar-toggle');
   // mainNav.hide();
-  
-  navbarToggle.click(function(){
-    if(navbarToggle.hasClass('active')){
+
+  navbarToggle.click(function() {
+    if (navbarToggle.hasClass('active')) {
       mainNav.hide();
       navbarToggle.removeClass('active');
-    }else{
+    } else {
       mainNav.css('display', 'flex');
       navbarToggle.addClass('active');
     }
@@ -22,22 +22,27 @@ $(document).ready(function () {
     .click(function(event) {
       // On-page links
       if (
-        location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '')
-        &&
+        location.pathname.replace(/^\//, '') ===
+          this.pathname.replace(/^\//, '') &&
         location.hostname === this.hostname
       ) {
         // Figure out element to scroll to
         var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        target = target.length
+          ? target
+          : $('[name=' + this.hash.slice(1) + ']');
         // Does a scroll target exist?
         if (target.length) {
           // Only prevent default if animation is actually gonna happen
           event.preventDefault();
           mainNav.hide();
           navbarToggle.removeClass('active');
-          $('html, body').animate({
-            scrollTop: target.offset().top - 60
-          }, 750);
+          $('html, body').animate(
+            {
+              scrollTop: target.offset().top - 60
+            },
+            750
+          );
         }
       }
     });

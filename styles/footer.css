@@ -1,0 +1,8 @@
+footer {
+  padding: 10px 0;
+}
+
+.contacts-box {
+  flex-wrap: wrap;
+  justify-content: center;
+}

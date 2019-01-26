@@ -1,0 +1,48 @@
+
+/* PROFILE */
+.profile-picture {
+  border-radius: 50%;
+  box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  max-width: 200px;
+  max-height: 200px;
+  transform: scale(1);
+  transition: transform ease-in-out 250ms, box-shadow ease-in-out 250ms;
+}
+.profile-picture:hover {
+  transform: scale(1.05);
+}
+.biography {
+  margin: 18px auto;
+  /* text-align: center; */
+  width: 75%;
+}
+.tech-stack-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tech-stack-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tech-stack-icons li {
+  margin: 0 20px;
+  text-align: center;
+}
+.tech-stack-icons li a:hover {
+  color: var(--tealText);
+}
+.tech-stack-icons li a {
+  display: flex;
+  flex-direction: column;
+}
+.resume {
+  flex-wrap: wrap;
+}
+.resume .category {
+  text-align: left;
+  width: 50%;
+  padding-top: 40px;
+}

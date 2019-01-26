@@ -1,0 +1,41 @@
+.project-card {
+  background-color: var(--primaryBackground);
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  max-width: 400px;
+}
+a.img:hover {
+  opacity: 1;
+  animation: flash 2s;
+}
+@keyframes flash {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.project-card-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 10px;
+}
+.project-card-info:hover {
+  background: rgba(105, 105, 105, 0.5);
+}
+.project-card-info h3 {
+  margin: 0;
+}
+.project-card-info .projectLink:hover {
+  color: var(--tealText);
+}
+
+@media screen and (min-width: 800px) {
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
