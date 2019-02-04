@@ -1,5 +1,5 @@
 /* \/\/\/ NAVIGATION BAR* \/\/\/ */
-.navbar {
+nav {
   background-color: var(--primaryBackground);
   font-size: 20px;
   height: 60px;
@@ -9,13 +9,13 @@
   z-index: 1;
 }
 
-.navbar a {
+nav a {
   align-self: center;
 }
-.navbar a:hover {
+nav a:hover {
   color: var(--tealText);
 }
-.navbar p {
+nav p {
   display: inline-block;
   font-size: 20px;
   padding: 16px;
@@ -59,20 +59,15 @@
   color: var(--tealText);
 }
 
-
 @media screen and (min-width: 800px) {
-  /* NAVIGATION */
   nav {
     display: flex;
     justify-content: space-between;
+    font-size: 16px;
+    height: 60px;
   }
   nav ul {
     align-items: center;
-  }
-
-  .navbar {
-    font-size: 16px;
-    height: 60px;
   }
   .main-nav {
     bottom: 0;
@@ -90,9 +85,7 @@
   .main-nav li a {
     padding: 0;
   }
-
   .navbar-toggle {
     display: none;
   }
-
 }
