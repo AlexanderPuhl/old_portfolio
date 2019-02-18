@@ -1,1 +1,1 @@
-<?php header( 'Location: /' ) ; ?>
+<?php include 'index.html';?>
