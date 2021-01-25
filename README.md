@@ -1,6 +1,6 @@
 <h1 align="center">My Portfolio</h1>
 
-<img alt="Landing Page" src="https://github.com/AlexanderPuhl/portfolio/blob/master/images/portfolioCircuitDesign.JPG">
+<img alt="Landing Page" src="https://github.com/AlexanderPuhl/old_portfolio/blob/master/images/portfolioCircuitDesign.JPG">
 <p align="center">
   <a href="https://www.alexpuhl.com/">Visit my website!</a>
 </p>
